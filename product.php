@@ -1,4 +1,7 @@
+<?php
+require_once 'parts/header.php';
 
+?>
 
 <div class="product-card">
     <a href="index.php">Вернуться на главную</a>

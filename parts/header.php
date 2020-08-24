@@ -1,3 +1,14 @@
+<?php
+require_once 'db/db.php';
+
+$cats = $connect->query("SELECT * FROM cats");
+$cats = $cats->fetch_all(PDO::FETCH_ASSOC);
+
+//echo "<pre>";
+//var_dump($cats);
+//echo "</pre>";
+?>
+
 <!doctype html>
 <html lang="ru">
 <head>
@@ -13,8 +24,9 @@
 <nav>
     <ul>
         <li><a href="index.php">Главная</a></li>
-        <li><a href="#">Категория один</a></li>
-        <li><a href="#">Категория два</a></li>
+        <? foreach ($cats as $cat) { ?>
+        <li><a href="index.php?cat=<?= $cat['1']?>"><?= $cat['2']?></a></li>  //прописываем в _GET cat=name
+        <? } ?>
         <li><a href="cart.php">Корзина (Товаров: 15 на сумму 9955 руб)</a></li>
     </ul>
 </nav>
