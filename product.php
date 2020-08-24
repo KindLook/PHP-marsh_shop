@@ -12,16 +12,16 @@
 
 <nav>
     <ul>
-        <li><a href="index.html">Главная</a></li>
+        <li><a href="index.php">Главная</a></li>
         <li><a href="#">Категория один</a></li>
         <li><a href="#">Категория два</a></li>
-        <li><a href="cart.html">Корзина (Товаров: 15 на сумму 9955 руб)</a></li>
+        <li><a href="cart.php">Корзина (Товаров: 15 на сумму 9955 руб)</a></li>
     </ul>
 </nav>
 <hr>
 
 <div class="product-card">
-    <a href="index.html">Вернуться на главную</a>
+    <a href="index.php">Вернуться на главную</a>
 
     <h2>Товар (55 рублей)</h2>
     <div class="descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, assumenda corporis deserunt dicta dolores ex illum inventore iusto nam nisi nobis obcaecati perspiciatis qui ratione recusandae similique sunt veritatis voluptatibus.</div>

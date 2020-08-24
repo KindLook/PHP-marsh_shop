@@ -12,10 +12,10 @@
 
         <nav>
             <ul>
-                <li><a href="index.html">Главная</a></li>
+                <li><a href="index.php">Главная</a></li>
                 <li><a href="#">Категория один</a></li>
                 <li><a href="#">Категория два</a></li>
-                <li><a href="cart.html">Корзина (Товаров: 15 на сумму 9955 руб)</a></li>
+                <li><a href="cart.php">Корзина (Товаров: 15 на сумму 9955 руб)</a></li>
             </ul>
         </nav>
         <hr>
