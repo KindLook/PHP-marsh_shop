@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b207751-8a65-4aaa-b2c0-dc78f5e3186b" name="Default Changelist" comment="" />
+    <list default="true" id="4b207751-8a65-4aaa-b2c0-dc78f5e3186b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/parts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/product.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +49,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598284075488</updated>
       <workItem from="1598284076559" duration="189000" />
+      <workItem from="1598288504276" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="добавление разметки в проект">
       <created>1598284545847</created>
@@ -68,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598284623220</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавление разметки в проект">
+      <created>1598284687772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598284687772</updated>
+    </task>
+    <task id="LOCAL-00004" summary="переименовал файлы">
+      <created>1598287435253</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598287435253</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,20 +111,22 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" проверка связи" />
     <MESSAGE value="добавление разметки в проект" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавление разметки в проект" />
+    <MESSAGE value="переименовал файлы" />
+    <option name="LAST_COMMIT_MESSAGE" value="переименовал файлы" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="492" y="270" key="NewPhpFileDialog" timestamp="1598284286323">
+    <state x="492" y="270" key="NewPhpFileDialog" timestamp="1598288582791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="270" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1598284286323" />
-    <state x="175" y="31" key="Vcs.Push.Dialog.v2" timestamp="1598284640755">
+    <state x="492" y="270" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1598288582791" />
+    <state x="175" y="31" key="Vcs.Push.Dialog.v2" timestamp="1598287436886">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="31" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598284640755" />
+    <state x="175" y="31" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598287436886" />
   </component>
 </project>
