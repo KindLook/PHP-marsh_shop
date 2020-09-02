@@ -1,6 +1,9 @@
 <?php
+session_start();
 require_once 'db/db.php';
 
+//$connect = mysqli_connect('127.0.0.1', 'root', 'root',
+//    'mush_shop');
 $cats = $connect->query("SELECT * FROM cats");
 $cats = $cats->fetch_all(PDO::FETCH_ASSOC);
 
@@ -25,9 +28,9 @@ $cats = $cats->fetch_all(PDO::FETCH_ASSOC);
     <ul>
         <li><a href="index.php">Главная</a></li>
         <? foreach ($cats as $cat) { ?>
-        <li><a href="index.php?cat=<?= $cat['1']?>"><?= $cat['2']?></a></li>  //прописываем в _GET cat=name
+        <li><a href="index.php?cat=<?= $cat['1']?>"><?= $cat['2']?></a></li>
         <? } ?>
-        <li><a href="cart.php">Корзина (Товаров: 15 на сумму 9955 руб)</a></li>
+        <li><a href="cart.php">Корзина (Товаров: <?=$_SESSION['totalQuantety']?> на сумму 9955 руб)</a></li>
     </ul>
 </nav>
 <hr>

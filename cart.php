@@ -1,4 +1,7 @@
+<?php
+require_once 'parts/header.php';
 
+?>
 
         <div class="cart">
             <img src="img/amanita.jpg" alt="Фото>">
