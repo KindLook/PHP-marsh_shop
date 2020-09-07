@@ -30,7 +30,7 @@ $cats = $cats->fetch_all(PDO::FETCH_ASSOC);
         <? foreach ($cats as $cat) { ?>
         <li><a href="index.php?cat=<?= $cat['1']?>"><?= $cat['2']?></a></li>
         <? } ?>
-        <li><a href="cart.php">Корзина (Товаров: <?=$_SESSION['totalQuantety']?> на сумму 9955 руб)</a></li>
+        <li><a href="cart.php">Корзина (Товаров: <?=$_SESSION['totalQuantity']?> на сумму 9955 руб)</a></li>
     </ul>
 </nav>
 <hr>
