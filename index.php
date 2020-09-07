@@ -12,7 +12,7 @@ else {
 }
 
 
-//var_dump($products[4][4]);
+
 
 ?>
 
