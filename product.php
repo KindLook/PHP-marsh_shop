@@ -8,11 +8,12 @@ if (isset($_GET['product'])) {
 }
 ?>
 
+<?//=var_dump($product[0][4])?><!--;-->
 <div class="product-card">
     <a href="index.php">Вернуться на главную</a>
 
-    <h2><?=$product['4']?>(<?=$product['3']?> рублей)</h2>
-    <div class="descr"><?=$product['6']?></div>
-    <img width="300" src="img/<?=$product['5']?>" alt="<?=$product['4']?>">
+    <h2><?=$product[0][4]?>(<?=$product[0][3]?> рублей)</h2>
+    <div class="descr"><?=$product[0][6]?></div>
+    <img width="300" src="img/<?=$product[0][5]?>" alt="<?=$product[0][4]?>">
 
 </div>

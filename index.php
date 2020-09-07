@@ -5,13 +5,14 @@ if (isset($_GET['cat'])) {
     $currentCat = $_GET['cat'];
     $products = $connect->query("SELECT * FROM products WHERE cat='$currentCat'");
     $products = $products->fetch_all(PDO::FETCH_ASSOC);
-}else {
+}
+else {
     $products = $connect->query("SELECT * FROM products");
     $products = $products->fetch_all(PDO::FETCH_ASSOC);
 }
 
 
-//var_dump($products);
+//var_dump($products[4][4]);
 
 ?>
 
