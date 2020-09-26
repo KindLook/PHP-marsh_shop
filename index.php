@@ -3,6 +3,7 @@ require_once 'parts/header.php';
 
 if (isset($_GET['cat'])) {
     $currentCat = $_GET['cat'];
+
     $products = $connect->query("SELECT * FROM products WHERE cat='$currentCat'");
     $products = $products->fetch_all(PDO::FETCH_ASSOC);
 }
