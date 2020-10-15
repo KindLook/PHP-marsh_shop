@@ -6,6 +6,11 @@ require_once '../db/db.php';
 var_dump($_POST);
 
 if (isset($_POST['id'])) {
+
+    unset($_SESSION['totalQuantity']);
+    unset($_SESSION['totalPrice']);
+    unset($_SESSION['cart']);
+
     $id = $_POST['id'];
     $product = $connect->query("SELECT * FROM products WHERE id='$id'");
     $product = $product->fetch_all(PDO::FETCH_ASSOC);
