@@ -4,12 +4,13 @@ require_once 'db/db.php';
 
 //$connect = mysqli_connect('127.0.0.1', 'root', 'root',
 //    'mush_shop');
+
 $cats = $connect->query("SELECT * FROM cats");
 $cats = $cats->fetch_all(PDO::FETCH_ASSOC);
 
-//echo "<pre>";
+
 //var_dump($cats);
-//echo "</pre>";
+
 ?>
 
 <!doctype html>
@@ -30,7 +31,7 @@ $cats = $cats->fetch_all(PDO::FETCH_ASSOC);
         <? foreach ($cats as $cat) { ?>
         <li><a href="index.php?cat=<?= $cat['1']?>"><?= $cat['2']?></a></li>
         <? } ?>
-        <li><a href="cart.php">Корзина (Товаров: <?=$_SESSION['totalQuantety']?> на сумму 9955 руб)</a></li>
+        <li><a href="cart.php">Корзина (Товаров: <?=$_SESSION['totalQuantity']?> на сумму <?=$_SESSION['totalPrice']?> руб)</a></li>
     </ul>
 </nav>
 <hr>
